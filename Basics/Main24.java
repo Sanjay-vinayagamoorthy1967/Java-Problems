@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main24 {
+ public static void main(String[] args) {
+         
+        Scanner sc = new Scanner(System.in);
+        int registration= sc.nextInt();
+        int broadcast = sc.nextInt();
+        int sponsor = sc.nextInt();
+        int prize = sc.nextInt();
+        int rent = sc.nextInt();
+        int advertising = sc.nextInt();
+        int RemainingFund = registration + broadcast + sponsor - prize - rent - advertising;
+        System.out.println(RemainingFund);  
+    }    
+}
