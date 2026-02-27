@@ -26,7 +26,7 @@ public class Main3 {
                 ReorderQuantity = (minimumStock - currentStock) + minimumStock/2;
             }else if(status.equals("Critical")){
                 count1++;
-                ReorderQuantity = (minimumStock - currentStock) + (int)(minimumStock*1.5);
+                ReorderQuantity = (minimumStock - currentStock) + (minimumStock*1.5);
             }
             TotalReorderQuantity +=ReorderQuantity;
             System.out.println();
@@ -43,3 +43,4 @@ public class Main3 {
         System.out.println("Total Reorder Quantity: "+TotalReorderQuantity);
     }
 }
+
