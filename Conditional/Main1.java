@@ -31,7 +31,7 @@ public class Main1 {
                     bonus = 8;
                 }
             }
-               add = (salary*bonus)/100;
+                 add = (salary*bonus)/100;
         
         System.out.println("Performance Rating:"+rating);
         System.out.println("Years of Service:"+year);
@@ -47,3 +47,4 @@ public class Main1 {
         
     }
 }
+
