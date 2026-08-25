@@ -7,7 +7,7 @@ public class Main1 {
         String type = sc.next();
         double salary = sc.nextDouble(); 
         int bonus=0;   
-        double add=0;
+        double add=0;  
          
             if(type.equals("Critical")){
                 
