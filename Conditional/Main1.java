@@ -5,7 +5,7 @@ public class Main1 {
         int rating = sc.nextInt();
         int year = sc.nextInt(); 
         String type = sc.next();
-        double salary = sc.nextDouble();
+        double salary = sc.nextDouble(); 
         int bonus=0;   
         double add=0;
          
