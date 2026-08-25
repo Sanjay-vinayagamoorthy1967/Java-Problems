@@ -6,9 +6,9 @@ public class Main1 {
         int year = sc.nextInt(); 
         String type = sc.next();
         double salary = sc.nextDouble();
-        int bonus=0; 
+        int bonus=0;   
         double add=0;
-       
+        
             if(type.equals("Critical")){
                 
                 if(rating==5 && year>=5){
