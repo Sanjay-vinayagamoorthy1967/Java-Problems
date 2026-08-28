@@ -16,7 +16,7 @@ public class Main{
         while(ar.hasNext()){
             System.out.println(ar.next());
         }
-        
+           
         System.out.println();
         System.out.println(arr.getFirst());
         System.out.println(arr.getLast());
