@@ -12,7 +12,7 @@ public class Main{
         arr.remove(Integer.valueOf(40));
 
         Iterator<Integer> ar = arr.iterator();
-
+  
         while(ar.hasNext()){
             System.out.println(ar.next());
         }
