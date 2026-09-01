@@ -4,7 +4,7 @@ public class Main1 {
         Scanner sc = new Scanner(System.in);
         int rating = sc.nextInt();
         int year = sc.nextInt(); 
-        String type = sc.next();
+        String type = sc.next(); 
         double salary = sc.nextDouble(); 
         int bonus=0;          
         double add=0;   
