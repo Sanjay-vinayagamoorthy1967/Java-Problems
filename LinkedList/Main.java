@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);  
         LinkedList<Integer> arr = new LinkedList<Integer>();
         int n = sc.nextInt();
         for(int i=0;i<n;i++){
