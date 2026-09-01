@@ -7,7 +7,7 @@ public class Main{
         int n = sc.nextInt();
         for(int i=0;i<n;i++){
             arr.add(sc.nextInt());
-        } 
+        }  
         arr.add(2,25);
         arr.remove(Integer.valueOf(40));
 
