@@ -9,7 +9,7 @@ public class Main1 {
         int bonus=0;          
         double add=0;   
           
-            if(type.equals("Critical")){  
+            if(type.equals("Critical")){   
                   
                 if(rating==5 && year>=5){
                     bonus = 25;
